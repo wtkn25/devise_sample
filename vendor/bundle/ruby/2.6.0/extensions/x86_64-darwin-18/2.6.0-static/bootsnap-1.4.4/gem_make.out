@@ -1,0 +1,15 @@
+current directory: /Users/bell/implement/rails_apps/devise_sample/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/bell/.anyenv/envs/rbenv/versions/2.6.3/bin/ruby -I /Users/bell/.anyenv/envs/rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190707-79077-12kqv2g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bell/implement/rails_apps/devise_sample/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/bell/implement/rails_apps/devise_sample/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/bell/implement/rails_apps/devise_sample/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190707-79077-ff9e87/bootsnap
