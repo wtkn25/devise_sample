@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+deviseのサンプル
 
-Things you may want to cover:
+[ブログの方で詳細を紹介しています。](https://lifewack.com/rails-devise/)
 
-* Ruby version
+deviseを使用したモデル
+[app/models/user.rb](https://github.com/wtkn25/devise_sample/blob/basic-configration/app/models/user.rb)
 
-* System dependencies
+application.html.erb
+[app/views/layouts/application.html.erb](https://github.com/wtkn25/devise_sample/blob/basic-configration/app/views/layouts/application.html.erb)
 
-* Configuration
+deviseのviews
+[app/views/devise/](https://github.com/wtkn25/devise_sample/tree/basic-configration/app/views/devise)
 
-* Database creation
+deviseの設定ファイル
+[config/initializers/devise.rb](https://github.com/wtkn25/devise_sample/blob/basic-configration/config/initializers/devise.rb)
 
-* Database initialization
+config.action_mailer.default_url_optionsの設定
+[config/environments/development.rb](https://github.com/wtkn25/devise_sample/blob/basic-configration/config/environments/development.rb)
 
-* How to run the test suite
+ルーティング設定
+[config/routes.rb](https://github.com/wtkn25/devise_sample/blob/basic-configration/config/routes.rb)
 
-* Services (job queues, cache servers, search engines, etc.)
+マイグレーションファイル
+[db/migrate/20190707085440_devise_create_users.rb](https://github.com/wtkn25/devise_sample/blob/basic-configration/db/migrate/20190707085440_devise_create_users.rb)
 
-* Deployment instructions
-
-* ...
+Gemfile
+[Gemfile](https://github.com/wtkn25/devise_sample/blob/basic-configration/Gemfile)
